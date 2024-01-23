@@ -1,0 +1,10 @@
+
+
+
+    1 arduino Uno
+    1 plaque de prototypage (breadboard)
+    7 cables de connection (jumpers)
+    1 résistance de 10 kΩ (marron noir orange)
+    1 résistance de 220 Ω (rouge rouge marron)
+    1 led
+    1 capteur d'inclinaison (tilt)
