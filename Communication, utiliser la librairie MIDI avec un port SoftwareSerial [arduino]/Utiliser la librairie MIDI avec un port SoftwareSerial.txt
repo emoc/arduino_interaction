@@ -1,0 +1,22 @@
+D'après http://www.partsnotincluded.com/arduino/how-to-control-anything-on-arduino-using-midi/
+
+
+MIDI_CREATE_DEFAULT_INSTANCE();
+ 
+// Hardware Serial
+MIDI_CREATE_INSTANCE(HardwareSerial, Serial, MIDI2);
+ 
+// Hardware Serial, Custom Baud
+struct CustomBaud : public midi::DefaultSettings{
+    static const long BaudRate = 115200; // Baud rate for hairless
+};
+MIDI_CREATE_CUSTOM_INSTANCE(HardwareSerial, Serial, MIDI3, CustomBaud);
+ 
+// Software Serial
+#include <SoftwareSerial.h>
+SoftwareSerial mySerial(10, 11); // RX, TX
+MIDI_CREATE_INSTANCE(SoftwareSerial, mySerial, MIDI4);
+ 
+// Dual Instance (Arduino Mega)
+MIDI_CREATE_INSTANCE(HardwareSerial, Serial, MIDI5);
+MIDI_CREATE_INSTANCE(HardwareSerial, Serial1, MIDI6);
