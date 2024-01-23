@@ -1,0 +1,25 @@
+https://www.adafruit.com/products/711
+
+These are standard '130 size' DC hobby motors.
+
+They come with a wider operating range than most toy motors: from 4.5 to 9VDC instead of 1.5-4.5V. This range makes them perfect for controlling with an Adafruit Motor Shield, or with an Arduino where you are more likely to have 5 or 9V available than a high current 3V setting.
+
+They'll fit in most electronics that already have 130-size motors installed and there's two breadboard-friendly wires soldered on already for fast prototyping.
+
+ 
+
+Specifications:
+
+    Operating Temperature: -10°C ~ +60°C
+    Rated Voltage: 6.0VDC
+    Rated Load: 10 g*cm
+    No-load Current: 70 mA max
+    No-load Speed: 9100 ±1800 rpm
+    Loaded Current: 250 mA max
+    Loaded Speed: 4500 ±1500 rpm
+    Starting Torque: 20 g*cm
+    Starting Voltage: 2.0
+    Stall Current: 500mA max
+    Body Size: 27.5mm x 20mm x 15mm
+    Shaft Size: 8mm x 2mm diameter
+    Weight: 17.5 grams
