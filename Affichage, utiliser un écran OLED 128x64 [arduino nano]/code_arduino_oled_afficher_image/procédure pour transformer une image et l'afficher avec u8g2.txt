@@ -1,0 +1,18 @@
+procédure pour transformer une image et l'afficher avec u8g2
+transformer une image avec gimp :
+ - image / échelle et taille de l'image : passer en 128 x 64
+ - image / mode / couleurs indexées : passer en n&b 1 bit (avec ou sans algo de dispersion)
+ - couleurs / inverser les valeurs
+ - "exporter vers" au format xbm, sans cocher d'options
+ - ouvir le fichier xbm dans un éditeur de texte et copier-coller le contenu des accolades dans le programme arduino
+
+on peut aussi utiliser ce soft sur windows :
+
+lcd assistant (windows seulement) http://en.radzio.dxp.pl/bitmap_converter/
+
+ou un service en ligne :
+
+http://majer.ch/lcd/adf_bitmap.php
+http://javl.github.io/image2cpp/
+
++ https://29a.ch/ditherlicious/
