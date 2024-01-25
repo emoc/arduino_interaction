@@ -1,0 +1,24 @@
+
+https://snootlab.com/lang-en/parts/544-solenoid-5v-small-en.html
+
+https://www.sparkfun.com/products/11015
+
+
+Solenoids are a great way to induce linear motion for pushing, pulling or controlling switches and levers. This smaller solenoid is designed to work directly with 5V which makes it a great match for embedded projects. It has a throw of about 4.5mm and 2 M2 mounting holes on the body.
+
+The wire lead is about 2" long and is terminated with a 2-pin JST PH connector.
+
+Note: The mounting holes on this solenoid are actually 1.6mm in diameter. This will allow you to tap for an M2 screw. Also, although the datasheet lists a throw of 6mm, the actual throw appears to be closer to 4.5mm.
+
+
+
+I used these for my Robotic Glockenspiel project, as the hammers that hit the chimes. They seemed to need 9V (rather than 5V) to operate well, but I’m careful to keep the power dissipation below the rating in the specifications. I removed the snap ring and spring to reduce the noise of operation - letting gravity bring the slug back down after hitting the chime.
+
+I like these solenoids because I can run them from the Arduino 9V Vin (with a 1000uF cap to avoid drawing the power supply down). I use a TIP 120 transistor to control the power to the solenoid.
+
+A few wishes to make it even better for me: tap the holes rather than leaving them untapped, and don’t go to the trouble of adding a connector to the solenoid wires.
+
+These have turned out to be nice, inexpensive hobby solenoids I can easily play with. I like them a lot.
+
+
+Note - It is a push type…NOT a pull . You can see it working here - https://youtu.be/yhX_9fFmt0Y
