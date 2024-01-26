@@ -1,0 +1,14 @@
+Avec Audacity :
+
+Avec le script /extras/python/char2mozzi.py
+
+  * Définir le script /extras/python/char2mozzi.py en exécutable (chmod +x ./char2mozzi.py)
+  * Définir le taux d'échantillonage du projet à 16384 (AUDIO_RATE de la version actuelle de Mozzi) (pistes/rééchantillonner)
+  * La taille max de l'échantillon est fixée par la mémoire de l'arduino
+  * Exporter le son au format 
+    * "Other uncompressed formats"
+    * "Header: RAW(headerless)"
+    * "Encoding: Signed 8 bit PCM"
+  * Copier le son dans le répertoire /extras/python/
+  * Executer la commande  char2mozzi.py echantillon.wav echantillon.h ECHANTILLON 16384
+
