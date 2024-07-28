@@ -19,6 +19,10 @@ Les projets des étudiant·e·s ayant participé aux cours et workshops sont (po
   * [Projet Jeu Électronique 2018-2019](https://github.com/AtelierNum/projet_jeu_electronique_1819)
 
 
+## Détails
 
+**Communication, Arduino vers Pure Data (série) vers Processing (OSC)**
+
+Envoi de messages formatés depuis arduino en communication USB-série, réception par pure data pour le traitement audio, transfert vers processing en OSC pour un retour visuel. La communication série utilise l'objet [serial_print] d'[Alexandros Drymonitis](https://github.com/alexdrymonitis/Arduino_Pd)
 
 
